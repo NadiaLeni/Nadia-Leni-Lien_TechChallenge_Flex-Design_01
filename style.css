@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* margin: 100px; */
+    /* padding: 20px; */
+    /* padding-left: 100px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.box-up, .box-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: ; */
+    /* margin-left: 20px; */
+}
+
+.box-left{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.box-right{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.person-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.person1{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+}
+
+.person2{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+}
+
+.name, .telephone{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Poppins';
+    padding-left: 10px;
+}
+
+
+
